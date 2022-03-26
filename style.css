@@ -772,7 +772,8 @@ textarea {
 	transform: scaleX(1);
   }
 
-  .main-navigation li.current-menu-item > a{
+  .main-navigation li.current-menu-item > a,
+  .main-navigation .menu-header-menu-container .menu li.current_page_parent > a{
     text-decoration: underline 4px;
     text-decoration-color: #4C6B79;
 }
